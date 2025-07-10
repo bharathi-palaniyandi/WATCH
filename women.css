@@ -1,0 +1,428 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    background-color:#e05d80;
+   
+
+}
+.logo h1{
+    color: white;
+    text-transform: uppercase;
+    padding: 10px;
+    margin-left: 30px;
+     text-decoration: none;
+}
+
+ header ul{
+    display: flex;
+    margin-left: 400px;
+    list-style: none;
+     margin-top: 0px;
+     padding: 20px;
+ }
+
+ header ul li a{
+    text-decoration: none;
+    margin-left: 40px;
+    font-size: 20px;
+    color: white;
+    text-transform: capitalize;
+   
+ }
+
+ .womtitle h3{
+     font-size: 40px;
+     text-transform: capitalize;
+     margin-top: 20px;
+     margin-bottom: 20px;
+     margin-left: 30px;
+ }
+
+ .womenimg img{
+  height: 500px;
+  width: 100%;
+ }
+ .top{
+    position: relative;
+ }
+ .top h4{
+    position: absolute;
+    top: 100px;
+    left: 25%;
+    color:yellow;
+    font-size: 40px;
+    text-transform: capitalize;
+ }
+ .top p{
+     position: absolute;
+     top: 170px;
+     left: 25%;
+     color: yellow;
+     font-size: 22px;
+     width: 500px;
+     text-align: center;
+ }
+ .top button{
+    position:absolute;
+    top: 250px;
+    left: 40%;
+    height: 40px;
+    width: 130px;
+    background-color: red;
+    color: white;
+    font-size: 17px;
+    border: none;
+    border-radius: 15px;
+ }
+
+.card img{
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.card{
+    border: 1px solid rgb(243, 238, 238);
+    width: 290px;
+    
+    box-shadow:  10px 10px 10px 2px rgb(173, 171, 171) ;
+}
+.name p{
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.price p{
+    text-align: right;
+    padding-right: 20px;
+    font-size: 19px;
+    margin-top: 5px;
+    color: green;
+}
+.butt button{
+    height: 40px;
+    width: 120px;
+    margin-top: 5px;
+    margin-left: 12px;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-family: "Tinos", serif;
+    background-color: black;
+    color: white;
+    border: none;
+    margin-bottom: 20px;
+}
+#buy{
+    background-color: beige;
+    color: black;
+}
+.card:hover{
+    box-shadow: 0px 0px 10px 3px black;
+}
+.container-03{
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+i{
+    padding-right: 5px;
+    font-size: 17px;
+}
+.intitle p{
+    margin-left: 20px;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-family: "Tinos", serif;
+}
+.inimage img{
+    height: 90px;
+}
+.inimage{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;  
+}
+
+.container-06{
+    background-color: rgb(54, 54, 54);
+    color: rgb(252, 249, 249);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 200px;
+    
+}
+.luxbrand {
+    font-size: 18px;
+    color: yellow;
+    text-transform: capitalize;
+    font-family: "Tinos", serif;
+    margin-top: 20px;
+}
+.cate{
+    font-size: 18px;
+    color: yellow;
+    margin-top: 20px;
+    text-transform: capitalize;
+    font-family: "Tinos", serif;
+}
+.service{
+    font-size: 18px;
+    color: yellow;
+    margin-top: 20px;
+    text-transform: capitalize;
+    font-family: "Tinos", serif;
+}
+.about{
+    font-size: 18px;
+    color: yellow;
+    margin-top: 20px;
+    text-transform: capitalize;
+    font-family: "Tinos", serif;
+}
+.luxbrand p{
+    font-size: 17px;
+    padding-bottom: 3px;
+    color: white;
+    font-family: "Old Standard TT", serif;
+}
+.cate p{
+    font-size: 17px;
+    color: white;
+    font-family: "Old Standard TT", serif;
+}
+.service p{
+    font-size: 17px;
+    color: white;
+    font-family: "Old Standard TT", serif;
+}
+.about p{
+    font-size: 17px;
+    color: white;
+    font-family: "Old Standard TT", serif;
+}   
+@media(max-width:768px){
+    header{
+    display: inline-block;
+    background-color: #e05d80;
+    width: 100%;
+}
+.logo h1{
+    color: white;
+    text-transform: uppercase;
+    padding: 10px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+ header ul{
+    display: block;
+    margin-left: 10px;
+    list-style: none;
+    margin-top: 10px;
+     padding-top: 10px;
+ }
+header ul li {
+ padding-top: 20px;
+}
+ header ul li a{
+    text-decoration: none;
+    margin-left: 40px;
+    font-size: 20px;
+    color: white;
+    text-transform: capitalize;
+
+   
+ }
+  .womtitle h3{
+     font-size: 25px;
+     text-transform: capitalize;
+     margin-top: 20px;
+     margin-bottom: 20px;
+     margin-left: 30px;
+ }
+
+ .womenimg img{
+  height: 400px;
+  width: 100%;
+ }
+ .top{
+    position: relative;
+ }
+ .top h4{
+    position: absolute;
+    top: 120px;
+    left: 12%;
+    color:yellow;
+    font-size: 20px;
+    text-transform: capitalize;
+ }
+ .top p{
+     position: absolute;
+     top: 175px;
+     left: 12%;
+     color: yellow;
+     font-size: 15px;
+     width: 300px;
+     text-align: center;
+ }
+ .top button{
+    position:absolute;
+    top: 250px;
+    left: 30%;
+    height: 40px;
+    width: 130px;
+    background-color: red;
+    color: white;
+    font-size: 17px;
+    border: none;
+    border-radius: 15px;
+ }
+
+    .card img{
+        height: 250px;
+        width: 250px;
+        object-fit: cover;
+        padding-left: 20px;
+        padding-top: 10px;
+    }
+    .card{
+        border: 1px solid rgb(243, 238, 238);
+        width: 290px;
+        
+        box-shadow:  10px 10px 10px 2px rgb(173, 171, 171) ;
+    }
+    .name p{
+        text-align: center;
+        font-size: 20px;
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+    .price p{
+        text-align: right;
+        padding-right: 20px;
+        font-size: 19px;
+        margin-top: 5px;
+    }
+    .butt button{
+        height: 40px;
+        width: 120px;
+        margin-top: 5px;
+        margin-left: 12px;
+        font-size: 18px;
+        font-weight: 600;
+        text-transform: capitalize;
+        font-family: "Tinos", serif;
+        background-color: black;
+        color: white;
+        border: none;
+        margin-bottom: 20px;
+    }
+    #buy{
+        background-color: beige;
+        color: black;
+    }
+    .card:hover{
+        box-shadow: 0px 0px 10px 3px black;
+    }
+    .container-03{
+        margin-top: 40px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 40px;
+    }
+
+    i{
+        padding-right: 5px;
+        font-size: 17px;
+    }
+
+    .intitle p{
+        margin-left: 20px;
+        font-size: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-transform: uppercase;
+        font-family: "Tinos", serif;
+    }
+    .inimage img{
+        height: 90px;
+    }
+    .inimage{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;  
+    }
+    
+    .container-06{
+        background-color: rgb(54, 54, 54);
+        color: rgb(252, 249, 249);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        height: 100%;
+        width: 100%;
+        padding-bottom: 20px;
+        
+    }
+    .luxbrand {
+        font-size: 18px;
+        color: yellow;
+        text-transform: capitalize;
+        font-family: "Tinos", serif;
+        margin-top: 20px;
+    }
+    .cate{
+        font-size: 18px;
+        color: yellow;
+        margin-top: 20px;
+        text-transform: capitalize;
+        font-family: "Tinos", serif;
+    }
+    .service{
+        font-size: 18px;
+        color: yellow;
+        margin-top: 20px;
+        text-transform: capitalize;
+        font-family: "Tinos", serif;
+    }
+    .about{
+        font-size: 18px;
+        color: yellow;
+        margin-top: 20px;
+        text-transform: capitalize;
+        font-family: "Tinos", serif;
+    }
+    .luxbrand p{
+        font-size: 16px;
+        padding-bottom: 3px;
+        color: white;
+        font-family: "Old Standard TT", serif;
+    }
+    .cate p{
+        font-size: 16px;
+        color: white;
+        font-family: "Old Standard TT", serif;
+    }
+    .service p{
+        font-size: 16px;
+        color: white;
+        font-family: "Old Standard TT", serif;
+    }
+    .about p{
+        font-size: 16px;
+        color: white;
+        font-family: "Old Standard TT", serif;
+    } 
+}
