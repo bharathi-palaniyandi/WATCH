@@ -220,6 +220,19 @@ i{
     color: white;
     font-family: "Old Standard TT", serif;
 }
+
+footer{
+    background-color: black;
+    height: 70px;
+    color: yellow;
+}
+footer p{
+    padding: 15px;
+    text-align: center;
+    font-size: 15px;
+    text-transform: capitalize;
+    font-family: "Old Standard TT", serif;
+}
 @media(max-width:768px){
      header{
     display: inline-block;
@@ -379,66 +392,5 @@ header ul li {
         justify-content: center;  
     }
     
-    .container-06{
-        background-color: rgb(54, 54, 54);
-        color: rgb(252, 249, 249);
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 30px;
-        
-        
-    }
-    .luxbrand {
-        font-size: 18px;
-        color: yellow;
-        text-transform: capitalize;
-        font-family: "Tinos", serif;
-        margin-top: 20px;
-    }
-    .cate{
-        font-size: 18px;
-        color: yellow;
-        margin-top: 20px;
-        text-transform: capitalize;
-        font-family: "Tinos", serif;
-    }
-    .service{
-        font-size: 18px;
-        color: yellow;
-        margin-top: 20px;
-        text-transform: capitalize;
-        font-family: "Tinos", serif;
-    }
-    .about{
-        font-size: 18px;
-        color: yellow;
-        margin-top: 20px;
-        text-transform: capitalize;
-        font-family: "Tinos", serif;
-    }
-    .luxbrand p{
-        font-size: 17px;
-        padding-bottom: 3px;
-        color: white;
-        font-family: "Old Standard TT", serif;
-    }
-    .cate p{
-        font-size: 17px;
-        padding-bottom: 3px;
-        color: white;
-        font-family: "Old Standard TT", serif;
-    }
-    .service p{
-        font-size: 17px;
-        padding-bottom: 3px;
-        color: white;
-        font-family: "Old Standard TT", serif;
-    }
-    .about p{
-        font-size: 17px;
-        padding-bottom: 3px;
-        color: white;
-        font-family: "Old Standard TT", serif;
-    }
+ 
 }
