@@ -379,14 +379,14 @@ header ul li {
         justify-content: center;  
     }
     
-    .lux{
+    .container-06{
         background-color: rgb(54, 54, 54);
         color: rgb(252, 249, 249);
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         gap: 30px;
-        height: 200%;
+        
         
     }
     .luxbrand {
